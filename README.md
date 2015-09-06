@@ -1,6 +1,6 @@
 # Minimalist Maps
 
-**Cartes sans frontières**
+**Cartes sans frontières!**
 
 ----------------------------
 
