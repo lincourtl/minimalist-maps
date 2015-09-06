@@ -47,7 +47,8 @@ major.cities <- world.cities[world.cities$pop>100000,]
 plot(major.cities$lon, major.cities$lat,
      pch=19, cex=.7, axes=FALSE, xlab="", ylab="")
 
-# Download and unzip airport data if needed 
+# Download and unzip airport data if needed
+# Yeah, that's really the URL to the data. Something's up with that site's config 
 airports_data_url <- "http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_airports.zip"
 airports_zipdata <- paste(airports_data_dir,basename(airports_data_url),sep="/")
 airports_shape_file <- paste(airports_data_dir, "ne_10m_airports.shp", sep="/")
